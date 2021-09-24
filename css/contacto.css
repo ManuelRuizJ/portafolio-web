@@ -1,0 +1,49 @@
+header{
+	width: 100%;
+	height: 750px;
+	background: #bc4e9c;
+	background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 6), hsla(317, 45%, 52%, .6)), url(https://static.vecteezy.com/system/resources/previews/000/166/557/non_2x/contact-me-illustration-vector.jpg);
+	background: linear-gradient(to right, hsla(340, 95%, 50%, .6), hsla(317, 45%, 52%, .6)), url(https://static.vecteezy.com/system/resources/previews/000/166/557/non_2x/contact-me-illustration-vector.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative; 
+}
+
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+
+nav > a{
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 10px; 
+}
+
+.wavet{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+header .textos-header{
+	display: flex;
+	height: 430px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.textos-header h1{
+	font-size: 50px;
+	color: #fff;
+}
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300
+	color: #fff;
+}
