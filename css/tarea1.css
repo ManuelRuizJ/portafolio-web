@@ -1,0 +1,10 @@
+header{
+	width: 100%;
+	height: 750px;
+	background: #7BF2DD; 
+	background: -webkit-linear-gradient(to right, hsla(105, 69%, 61%, 6), hsla(176, 69%, 61%, 0.47)), url(https://static.elcorreo.com/www/multimedia/202106/11/media/cortadas/social-media-apps_1080x1080-kPzB-U140672354979yaF-624x385@El%20Correo.jpg);
+	background: linear-gradient(to right, hsla(105, 69%, 61%, .6), hsla(176, 69%, 61%, 0.47)), url(https://static.elcorreo.com/www/multimedia/202106/11/media/cortadas/social-media-apps_1080x1080-kPzB-U140672354979yaF-624x385@El%20Correo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative; 
+}
