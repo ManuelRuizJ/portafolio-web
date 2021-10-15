@@ -35,8 +35,8 @@ header{
 	width: 100%;
 	height: 750px;
 	background: #7BF2DD; 
-	background: -webkit-linear-gradient(to right, hsla(105, 69%, 61%, 6), hsla(176, 69%, 61%, 0.47)), url(https://scontent.fpbc2-2.fna.fbcdn.net/v/t1.6435-9/182802331_2914623528809309_7771315093360406656_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gtcI48iQ2dQAX98_wtM&_nc_ht=scontent.fpbc2-2.fna&oh=cad1088e57f763a6119fa6d822c1ebf9&oe=61614E54);
-	background: linear-gradient(to right, hsla(105, 69%, 61%, .6), hsla(176, 69%, 61%, 0.47)), url(https://scontent.fpbc2-2.fna.fbcdn.net/v/t1.6435-9/182802331_2914623528809309_7771315093360406656_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gtcI48iQ2dQAX98_wtM&_nc_ht=scontent.fpbc2-2.fna&oh=cad1088e57f763a6119fa6d822c1ebf9&oe=61614E54);
+	background: -webkit-linear-gradient(to right, hsla(105, 69%, 61%, 6), hsla(176, 69%, 61%, 0.47)), url(https://aprendelibvrefiles.blob.core.windows.net/aprendelibvre-container/course/acceso_a_la_educacion_superior/image/edusup1-01_xl.png);
+	background: linear-gradient(to right, hsla(105, 69%, 61%, .6), hsla(176, 69%, 61%, 0.47)), url(https://aprendelibvrefiles.blob.core.windows.net/aprendelibvre-container/course/acceso_a_la_educacion_superior/image/edusup1-01_xl.png);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative; 
