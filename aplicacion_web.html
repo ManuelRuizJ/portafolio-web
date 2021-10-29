@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sitio Sobre Mi</title>
+		<title>Aplicación Web</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
-		<link rel="stylesheet" type="text/css" href="css/tarea2.css">
+		<link rel="stylesheet" type="text/css" href="css/aplicacion_web.css">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
@@ -72,42 +72,27 @@
 				<a href="aplicacion_web.html">Tarea 3</a>
 			</nav>
 			<section class="textos-header">
-				<h1>Practica 2</h1>
-				<h2>Programa en Phyton</h2>
+				<h1>Practica 3</h1>
+				<h2>Aplicaión Web</h2>
 			</section>
 			<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
 		</header>
 
 		<main>
 			<section class="contenedor">
-				<div class="titulo">Codigo del programa</div>
+				<div class="titulo">¿Cómo crear una aplicacion web?</div>
 				<div class="texto" id="texto-programa">
-					<h3>Codigo</h3><br>
-					<p>print("Asi se ve el diccionario: ")<br>
-					dic = {"frutas":["pera", "manzana", "papaya"], "verduras":["zanahoria", "jitomaate", "ejote"], "lacteos":["leche", "yogurth", "queso"]}<br>
-					print(dic)<br>
-					print()<br>
-					<br>
-					print("Eliminamos lacteos")<br>
-					del(dic["lacteos"])<br>
-					print(dic)<br>
-					print()<br>
-					<br>
-					print("Agregamos abarrotes")<br>
-					dic["abarrotes"] = "sopas", "aceite", "chetos"<br>
-					print(dic)<br></p><br><br>
+					<h3>Crearemos un programa</h3><br>
+					<p>Primero realizaremos en un editor de textos de preferencia (yo escogí Visual Studio Code) el código con una función que llama la importación de una biblioteca, y devolverá el código HTML.</p><br>
+					<p>from flask import Flask<br><br>app = Flask(__name__)<br><br> @app.route("/")<br>def hello_world():<br>    return " >H1> Hola a todos  , me llamos jesus y esta es mi aplicacion web>/H1> >p> No se muy bien utlizarla pero estoy emocionado para aprender aa programar en back-end, me costo hacer esta aplicacion, ya que no sabia como se hacain algunas cosas, pero todo dio resultados, me siento bien por lograrlo, ahora quiero mejorar y dar un mejor resultado>/p> "</p><br><br>
 
-					<h3>Resultado en consola</h3>
-					<p>Asi se ve el diccionario:<br>
-					{'frutas': ['pera', 'manzana', 'papaya'], 'verduras': ['zanahoria', 'jitomaate', 'ejote'], 'lacteos': ['leche', 'yogurth', 'queso']}<br>
-					<br>
-					Eliminamos lacteos<br>
-					{'frutas': ['pera', 'manzana', 'papaya'], 'verduras': ['zanahoria', 'jitomaate', 'ejote']}<br>
-					<br>
-					Agregamos abarrotes<br>
-					{'frutas': ['pera', 'manzana', 'papaya'], 'verduras': ['zanahoria', 'jitomaate', 'ejote'], 'abarrotes': ('sopas', 'aceite', 'chetos')}<br>
-					<br>
-					Process finished with exit code 0</p><br><br>
+					<h3>Comandos Para Correrla en el CMD</h3>
+					<p>Después desde el CMD nos colocaremos en una nueva carpeta que yo llame flask, ahí podremos nuestro proyecto .py y correremos el programa, copiaremos la dirección que sale y la pegaremos en nuestro navegador de preferencia.</p><br>
+					<b><p>C:\Users\jeshu>dir<br> El volumen de la unidad C es Windows<br> El número de serie del volumen es: C807-CCE8<br><br> Directorio de C:\Users\jeshu<br><br>28/10/2021  06:04 p. m.    DIR>          .<br>28/10/2021  06:04 p. m.    DIR><br>         ..<br>24/09/2021  09:24 a. m.               343 .bash_history<br>22/09/2021  05:15 p. m.               187 .gitconfig<br>22/10/2021  10:45 a. m.    DIR>          .vscode<br>09/07/2021  11:56 p. m.    DIR>          3D Objects<br>09/07/2021  11:56 p. m.    DIR>          Contacts<br>28/10/2021  08:33 p. m.    DIR>          Documents<br>29/10/2021  09:47 a. m.    DIR>          Downloads<br>23/09/2021  12:53 p. m.    <DIR>          Favorites<br>09/07/2021  11:56 p. m.    DIR>          Links<br>09/07/2021  11:56 p. m.    <DIR>          Music<br>29/10/2021  09:34 a. m.    DIR>          OneDrive<br>11/07/2021  02:52 p. m.    DIR>          PCManger<br>23/09/2021  07:54 p. m.    DIR>          pseint<br>28/10/2021  09:17 a. m.    DIR>          PycharmProjects<br>09/07/2021  11:56 p. m.    DIR>          Saved Games<br>14/09/2021  07:57 a. m.    DIR>          Searches<br>11/07/2021  02:41 p. m.    DIR>          Videos<br>               2 archivos            530 bytes<br>              17 dirs  33,847,123,968 bytes libres<br><br>C:\Users\jeshu>cd Documents<br><br>C:\Users\jeshu\Documents>dir<br> El volumen de la unidad C es Windows<br> El número de serie del volumen es: C807-CCE8<br><br> Directorio de C:\Users\jeshu\Documents<br><br>28/10/2021  08:33 p. m.    DIR>          .<br>28/10/2021  08:33 p. m.    DIR>          ..<br>28/10/2021  09:06 p. m.    DIR>         flask<br>28/10/2021  08:33 p. m.               122 main.py<br>22/09/2021  05:16 p. m.    DIR          sistemas<br>               1 archivos            122 bytes<br>               4 dirs  33,846,599,680 bytes libres<br><br>C:\Users\jeshu\Documents>cd flask<br><br>C:\Users\jeshu\Documents\flask>set  FLASK_APP=main<br><br>C:\Users\jeshu\Documents\flask>python -m flask run<br> * Serving Flask app 'main' (lazy loading)<br> * Environment: production<br>   WARNING: This is a development server. Do not use it in a production deployment.<br>   Use a production WSGI server instead.<br> * Debug mode: off<br> * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)</p></b><br><br>
+
+
+					<h3>Abrir la Aplicacion en el Navegador</h3><br>
+					<p>Ahora procederemos una vez pegado, se correrá el .py y gracias a la biblioteca flask lograremos con un archivo Python crear una aplicación web desde el backend.	Esto funciona desde el puerto 5000, que es donde se ubica la biblioteca flask.</p><br><br>
 
 					<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   						<div class="carousel-indicators">
@@ -117,23 +102,23 @@
   						</div>
 				  		<div class="carousel-inner">
 						    <div class="carousel-item active" data-bs-interval="10000">
-						      	<img src="img/cod_1.png" class="d-block w-100" alt="...">
+						      	<img src="img/img_app_code.png" class="d-block w-100" alt="...">
 						      	<div class="carousel-caption d-none d-md-block">
-						        	<h3 id="text-slid">Codigo</h3>
-						        	<p id="text-slid">Aqui se puede observar el diccionario</p>
+						        	<h3 id="text-slid">Codigo Aplicacion Web</h3>
+						        	<p id="text-slid">Aqui observamos el codigo de la aplicacion en python</p>
 						      	</div>
 						    </div>
 						    <div class="carousel-item" data-bs-interval="2000">
-						      	<img src="img/cod_1.png" class="d-block w-100" alt="...">
+						      	<img src="img/img_app_code_cmd.png" class="d-block w-100" alt="...">
 						      	<div class="carousel-caption d-none d-md-block">
-						        	<h3 id="text-slid">Programa corriendo</h3>
-						        	<p id="text-slid">Aqui se puede observar las tareas que se realizan</p>
+						        	<h3 id="text-slid">Comandos CMD</h3>
+						        	<p id="text-slid">Aqui se puede observar los comandos para correr la aplicacion</p>
 						      	</div>
 						    </div>
 						   <div class="carousel-item">
-						      	<img src="img/cod_1.png" class="d-block w-100" alt="...">
+						      	<img src="img/app_run.png" class="d-block w-100" alt="...">
 						      	<div class="carousel-caption d-none d-md-block">
-						        	<h3 id="text-slid">El codigo y el resultado en consola</h3>
+						        	<h3>El resultado en el navegador</h3>
 						        	<p id="text-slid"></p>
 						      	</div>
 						    </div>
