@@ -2,8 +2,8 @@ header{
 	width: 100%;
 	height: 750px;
 	background: #7BF2DD; 
-	background: -webkit-linear-gradient(to right, hsla(280, 51%, 60%, .6), hsla(194, 57%, 55%, 0.47)), url(https://as01.epimg.net/masdeporte/imagenes/2021/07/29/album/1627510751_379217_1627545286_noticia_normal.jpg);
-	background: linear-gradient(to right, hsla(280, 51%, 60%, .6), hsla(194, 57%, 55%, 0.47)), url(https://as01.epimg.net/masdeporte/imagenes/2021/07/29/album/1627510751_379217_1627545286_noticia_normal.jpg);
+	background: -webkit-linear-gradient(to right, hsla(280, 51%, 60%, .6), hsla(194, 57%, 55%, 0.47)), url(https://github.com/ManuelRuizJ/portafolio-web/blob/main/img/ft_a_1_act_1_sqd_11.jpeg?raw=true);
+	background: linear-gradient(to right, hsla(280, 51%, 60%, .6), hsla(194, 57%, 55%, 0.47)), url(https://github.com/ManuelRuizJ/portafolio-web/blob/main/img/ft_a_1_act_1_sqd_11.jpeg?raw=true);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative; 
